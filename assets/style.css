@@ -40,6 +40,8 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
+	display: block;
 }
 
 #about {
@@ -69,7 +71,12 @@ body {
 
 .picture img {
 	width: 100%;
+	height:auto;
+	display: block;
+}
 
+.w-100 {
+	height: auto;
 }
 #about-me {
 	flex: 2
@@ -90,9 +97,9 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+/* #gallery {
+	/*	min-height: 100vh; 
+} */
 .title{
 	text-align: center;
 	padding-block: 2em;
